@@ -51,19 +51,9 @@ The study contrasts two primary paradigms:
 
 The workflow relies on Python-based open-source libraries for data processing and deep learning inference:
 
-* 
-**Data Handling**: Pandas, NumPy, and Awkward Array (for variable-length particle collections).
-
-
-* 
-**Deep Learning**: PyTorch and PyTorch Lightning.
-
-
-* 
-**Evaluation**: Scikit-Learn (ROC/AUC calculations) and Matplotlib (Confusion matrices).
-
-
-
+* **Data Handling**: Pandas, NumPy, and Awkward Array (for variable-length particle collections).
+* **Deep Learning**: PyTorch and PyTorch Lightning.
+* **Evaluation**: Scikit-Learn (ROC/AUC calculations) and Matplotlib (Confusion matrices).
 ## Usage
 
 The codebase is optimized for execution on GPU hardware (e.g., NVIDIA T4 via Google Colab). Ensure the HDF5 datasets are downloaded and correctly linked to your directory before running notebooks 4 and 5. Execute the notebooks sequentially to replicate the data generation, baseline testing, and final evaluations.
